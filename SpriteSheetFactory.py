@@ -1,4 +1,4 @@
-from GameEngine.Resources import SpriteSheet
+from PyGameEngine.Resources import SpriteSheet
 
 def DungeonTileset16x16v4(resourceLoader):
     spriteSheet = resourceLoader.load_image('DungeonTileset16X16.v4.png')
@@ -124,9 +124,9 @@ def DungeonTileset16x16v4(resourceLoader):
         )
 
 if __name__ == '__main__':
-    from GameEngine.GameEngine import GameEngine
-    from GameEngine.Resources import ResourceLoader
-    from GameEngine.Entities import EntityBase
+    from PyGameEngine.GameEngine import GameEngine
+    from PyGameEngine.Resources import ResourceLoader
+    from PyGameEngine.Entities import EntityBase
     gameEngine = GameEngine()
     loader = ResourceLoader()
     dungeonTileset = DungeonTileset16x16v4(loader)
