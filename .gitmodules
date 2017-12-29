@@ -1,0 +1,4 @@
+[submodule "PyGameEngine"]
+	path = PyGameEngine
+	url = https://github.com/ChadCarey/PyGameEngine.git
+	branch = master
